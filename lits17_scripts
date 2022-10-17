@@ -1,0 +1,57 @@
+# Copyright (c) OpenMMLab. All rights reserved.
+import argparse
+import os
+import os.path as osp
+import numpy as np
+import mmcv
+import shutil
+def listdir(path):
+    """ List files but remove hidden files from list """
+    return [item for item in os.listdir(path) if item[0] != '.']
+
+def main():
+    lits17_path = 'data/lits17/'
+    # out_dir 'data/lits17/'
+    subfolders = ['train', 'val', 'test']
+    for folder in subfolders:
+        img_dir = osp.join(lits17_path, 'img_dir', folder)
+        ann_dir = osp.join(lits17_path, 'ann_dir', folder)
+        for file in mmcv.scandir(osp.join(lits17_path, folder), suffix='.npy'):
+            filename = osp.join(lits17_path, folder, file)
+
+            typename, filename1, filename2 = file.split('-')
+            number, suf = filename2.split('.')
+            newname = filename1 + '-' + number + '-' + typename + '.' + suf
+
+            if typename == 'volume':
+                shutil.copy(filename, osp.join(img_dir, newname))
+            else:
+                shutil.copy(filename, osp.join(ann_dir, newname))
+
+
+    # mmcv.mkdir_or_exist(out_dir)
+    #
+    # gt_dir = osp.join(cityscapes_path, args.gt_dir)
+    #
+    # poly_files = []
+    # for poly in mmcv.scandir(gt_dir, '_polygons.json', recursive=True):
+    #     poly_file = osp.join(gt_dir, poly)
+    #     poly_files.append(poly_file)
+    # if args.nproc > 1:
+    #     mmcv.track_parallel_progress(convert_json_to_label, poly_files,
+    #                                  args.nproc)
+    # else:
+    #     mmcv.track_progress(convert_json_to_label, poly_files)
+    #
+    # split_names = ['train', 'val', 'test']
+    #
+    # for split in split_names:
+    #     filenames = []
+    #     for poly in mmcv.scandir(osp.join(lits17_path, split), '.npy', recursive=True):
+    #         filenames.append(poly.replace('_gtFine_polygons.json', ''))
+    #     with open(osp.join(out_dir, f'{split}.txt'), 'w') as f:
+    #         f.writelines(f + '\n' for f in filenames)
+
+
+if __name__ == '__main__':
+    main()
