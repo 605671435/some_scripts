@@ -1,0 +1,116 @@
+ssh://root@region-3.seetacloud.com:28179/root/miniconda3/bin/python3.8 -u /root/filescripts/preprocess_lits.py
+Total numbers of samples is : 28
+[                                                  ] 0/28, elapsed: 0s, ETA:==== 15.nii.gz | 1/28 ====
+Ori shape: (565, 512, 512) (565, 512, 512)
+Cut out range: 220--392
+Preprocessed shape: (173, 256, 256) (173, 256, 256)
+[>                                ] 1/28, 0.0 task/s, elapsed: 35s, ETA:   940s==== 11.nii.gz | 2/28 ====
+Ori shape: (466, 512, 512) (466, 512, 512)
+Cut out range: 252--458
+Preprocessed shape: (207, 256, 256) (207, 256, 256)
+[>>                               ] 2/28, 0.0 task/s, elapsed: 55s, ETA:   713s==== 24.nii.gz | 3/28 ====
+Ori shape: (276, 512, 512) (276, 512, 512)
+Cut out range: 192--408
+Preprocessed shape: (217, 256, 256) (217, 256, 256)
+[>>>                              ] 3/28, 0.0 task/s, elapsed: 73s, ETA:   609s==== 18.nii.gz | 4/28 ====
+Ori shape: (845, 512, 512) (845, 512, 512)
+Cut out range: 263--453
+Preprocessed shape: (191, 256, 256) (191, 256, 256)
+[>>>>                            ] 4/28, 0.0 task/s, elapsed: 108s, ETA:   648s==== 13.nii.gz | 5/28 ====
+Ori shape: (605, 512, 512) (605, 512, 512)
+Cut out range: 253--433
+Preprocessed shape: (181, 256, 256) (181, 256, 256)
+[>>>>>                           ] 5/28, 0.0 task/s, elapsed: 138s, ETA:   635s==== 27.nii.gz | 6/28 ====
+Ori shape: (861, 512, 512) (861, 512, 512)
+Cut out range: 212--411
+Preprocessed shape: (200, 256, 256) (200, 256, 256)
+[>>>>>>                          ] 6/28, 0.0 task/s, elapsed: 171s, ETA:   628s==== 19.nii.gz | 7/28 ====
+Ori shape: (547, 512, 512) (547, 512, 512)
+Cut out range: 239--429
+Preprocessed shape: (191, 256, 256) (191, 256, 256)
+[>>>>>>>>                        ] 7/28, 0.0 task/s, elapsed: 199s, ETA:   596s==== 23.nii.gz | 8/28 ====
+Ori shape: (391, 512, 512) (391, 512, 512)
+Cut out range: 294--468
+Preprocessed shape: (175, 256, 256) (175, 256, 256)
+[>>>>>>>>>                       ] 8/28, 0.0 task/s, elapsed: 219s, ETA:   548s==== 8.nii.gz | 9/28 ====
+Ori shape: (541, 512, 512) (541, 512, 512)
+Cut out range: 312--530
+Preprocessed shape: (219, 256, 256) (219, 256, 256)
+[>>>>>>>>>>                      ] 9/28, 0.0 task/s, elapsed: 251s, ETA:   529s==== 20.nii.gz | 10/28 ====
+Ori shape: (574, 512, 512) (574, 512, 512)
+Cut out range: 263--457
+Preprocessed shape: (195, 256, 256) (195, 256, 256)
+[>>>>>>>>>>>                    ] 10/28, 0.0 task/s, elapsed: 275s, ETA:   494s==== 16.nii.gz | 11/28 ====
+Ori shape: (689, 512, 512) (689, 512, 512)
+Cut out range: 194--382
+Preprocessed shape: (189, 256, 256) (189, 256, 256)
+[>>>>>>>>>>>>                   ] 11/28, 0.0 task/s, elapsed: 304s, ETA:   471s==== 4.nii.gz | 12/28 ====
+Ori shape: (841, 512, 512) (841, 512, 512)
+Cut out range: 258--497
+Preprocessed shape: (240, 256, 256) (240, 256, 256)
+[>>>>>>>>>>>>>                  ] 12/28, 0.0 task/s, elapsed: 341s, ETA:   454s==== 9.nii.gz | 13/28 ====
+Ori shape: (549, 512, 512) (549, 512, 512)
+Cut out range: 324--535
+Preprocessed shape: (212, 256, 256) (212, 256, 256)
+[>>>>>>>>>>>>>>                 ] 13/28, 0.0 task/s, elapsed: 372s, ETA:   429s==== 1.nii.gz | 14/28 ====
+Ori shape: (123, 512, 512) (123, 512, 512)
+Cut out range: 204--389
+Preprocessed shape: (186, 256, 256) (186, 256, 256)
+[>>>>>>>>>>>>>>>                ] 14/28, 0.0 task/s, elapsed: 389s, ETA:   389s==== 10.nii.gz | 15/28 ====
+Ori shape: (501, 512, 512) (501, 512, 512)
+Cut out range: 275--495
+Preprocessed shape: (221, 256, 256) (221, 256, 256)
+[>>>>>>>>>>>>>>>>               ] 15/28, 0.0 task/s, elapsed: 412s, ETA:   357s==== 7.nii.gz | 16/28 ====
+Ori shape: (541, 512, 512) (541, 512, 512)
+Cut out range: 305--520
+Preprocessed shape: (216, 256, 256) (216, 256, 256)
+[>>>>>>>>>>>>>>>>>              ] 16/28, 0.0 task/s, elapsed: 443s, ETA:   332s==== 25.nii.gz | 17/28 ====
+Ori shape: (601, 512, 512) (601, 512, 512)
+Cut out range: 220--420
+Preprocessed shape: (201, 256, 256) (201, 256, 256)
+[>>>>>>>>>>>>>>>>>>             ] 17/28, 0.0 task/s, elapsed: 466s, ETA:   302s==== 5.nii.gz | 18/28 ====
+Ori shape: (537, 512, 512) (537, 512, 512)
+Cut out range: 230--410
+Preprocessed shape: (181, 256, 256) (181, 256, 256)
+[>>>>>>>>>>>>>>>>>>>            ] 18/28, 0.0 task/s, elapsed: 490s, ETA:   272s==== 26.nii.gz | 19/28 ====
+Ori shape: (668, 512, 512) (668, 512, 512)
+Cut out range: 159--332
+Preprocessed shape: (174, 256, 256) (174, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>          ] 19/28, 0.0 task/s, elapsed: 517s, ETA:   245s==== 2.nii.gz | 20/28 ====
+Ori shape: (517, 512, 512) (517, 512, 512)
+Cut out range: 314--492
+Preprocessed shape: (179, 256, 256) (179, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>         ] 20/28, 0.0 task/s, elapsed: 541s, ETA:   216s==== 0.nii.gz | 21/28 ====
+Ori shape: (75, 512, 512) (75, 512, 512)
+Cut out range: 205--374
+Preprocessed shape: (170, 256, 256) (170, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>        ] 21/28, 0.0 task/s, elapsed: 552s, ETA:   184s==== 6.nii.gz | 22/28 ====
+Ori shape: (518, 512, 512) (518, 512, 512)
+Cut out range: 285--510
+Preprocessed shape: (226, 256, 256) (226, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>       ] 22/28, 0.0 task/s, elapsed: 578s, ETA:   158s==== 3.nii.gz | 23/28 ====
+Ori shape: (534, 512, 512) (534, 512, 512)
+Cut out range: 283--491
+Preprocessed shape: (209, 256, 256) (209, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>      ] 23/28, 0.0 task/s, elapsed: 602s, ETA:   131s==== 22.nii.gz | 24/28 ====
+Ori shape: (247, 512, 512) (247, 512, 512)
+Cut out range: 317--507
+Preprocessed shape: (191, 256, 256) (191, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>>     ] 24/28, 0.0 task/s, elapsed: 627s, ETA:   105s==== 17.nii.gz | 25/28 ====
+Ori shape: (826, 512, 512) (826, 512, 512)
+Cut out range: 242--440
+Preprocessed shape: (199, 256, 256) (199, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>    ] 25/28, 0.0 task/s, elapsed: 662s, ETA:    79s==== 12.nii.gz | 26/28 ====
+Ori shape: (455, 512, 512) (455, 512, 512)
+Cut out range: 245--454
+Preprocessed shape: (210, 256, 256) (210, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>   ] 26/28, 0.0 task/s, elapsed: 686s, ETA:    53s==== 21.nii.gz | 27/28 ====
+Ori shape: (437, 512, 512) (437, 512, 512)
+Cut out range: 240--436
+Preprocessed shape: (197, 256, 256) (197, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ] 27/28, 0.0 task/s, elapsed: 708s, ETA:    26s==== 14.nii.gz | 28/28 ====
+Ori shape: (588, 512, 512) (588, 512, 512)
+Cut out range: 240--418
+Preprocessed shape: (179, 256, 256) (179, 256, 256)
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 28/28, 0.0 task/s, elapsed: 737s, ETA:     0s
+Process finished with exit code 0
